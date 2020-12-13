@@ -1,0 +1,9 @@
+<?php
+$score = $argv[1];
+if ($score >= 80) {
+  echo "$score : A" . PHP_EOL;
+} else if ($score >= 60) {
+  echo "$score : B" . PHP_EOL;
+} else {
+  echo "$score : C" . PHP_EOL;
+}
